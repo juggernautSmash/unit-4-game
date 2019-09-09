@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Unit 4 Game</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    </head>
+    <body>
+        <div id="block" class="container">
+            <nav>
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo">Unit 4 Game</a>
+                </div>
+            </nav>
+            <div id="instructions" class="row col s8"><!-- Instructions on how to play -->
+                <p id="intro" class="story center-align scale-transition">You have died and your soul transmigrated into a world filled with immortal bodies of mythical heroes from your world. You may choose a "Servant" as a vessel for your soul.
+                </p>
+            </div>
+            <div id="charSelect" class="carousel"></div>
+            <div id="arena" class="row">
+                <div id="enemySelection" class="col s4 scale-transition scale-out">
+                    <!-- display user selected character -->
+                </div>
+                <div id="storyBoard" class="col s4" style="background-color: yellow; height: 500px; text-align: center;">
+                    <!-- Display fight updates-->
+                    <a class="waves-effect waves-light btn">button</a>
+                </div>
+                <div id="userSelection" class="col s4 scale-transition scale-out">
+                    <!-- display enemy character selection -->
+                </div>
+            </div>
+        </div>
+        
+        
+        <script src="./assets/javascript/game.js" async defer></script>
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script>
+            // Initialize carousel
+                document.addEventListener('DOMContentLoaded', function() {
+                var elems = document.querySelectorAll('.carousel');
+                var instances = M.Carousel.init(elems, {});
+                });
+
+            // Initialize   
+        </script>
+    </body>
+</html>

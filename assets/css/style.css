@@ -1,0 +1,60 @@
+#block{
+    width: 100%;
+}
+
+body{
+    background-image: url(../images/bg.png);
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+#instructions{
+    /* background-color: gray; */
+    font-size: 50px;
+    font-family: 'Brush Script MT', 'Brush Script Std', cursive;
+    margin-top: 25px;
+    padding-right: 100px;
+    padding-left: 100px;
+    text-shadow: 5px 5px 8px white
+    /* line-height: 10px; */
+    /* margin-bottom: 50px; */
+}
+
+.carousel{
+    /* overflow: visible !important */
+    margin-top: -100px;
+    perspective: none !important;
+    height: 500px !important;
+}
+
+.card-title{
+    position: relative;
+    margin-top: -90px;
+    /* background-image: url(../images/redbg.png); */
+}
+
+.card-attribute {
+    /* background-color: red; */
+    font-family: 'Arial Black';
+    font-weight: bolder;
+    font-style: italic;
+    color: gold;
+    text-shadow: 5px 5px 8px red 
+}
+
+.card-attribute-arena {
+    font-family: 'Arial Black';
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 50px;
+    color: gold;
+    text-shadow: 5px 5px 8px red 
+}
+
+.arena {
+    background-color: transparent !important;
+}
+
+.character {
+    max-height: 40%;
+}
