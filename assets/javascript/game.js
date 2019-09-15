@@ -203,7 +203,7 @@ document.getElementById("fightButton").addEventListener("click", event =>{
         document.getElementById('fightRow').className += ' scale-out' // hide attack button
         removeCard('enemyStage') // remove the enemy character
         enemyCharacter = {} // empty the enemt character object
-        userCharacter.bhp += 500 // heal user character by 500 HP
+        userCharacter.bhp += 250 // heal user character by 500 HP
         document.getElementById('userHP').innerHTML = userCharacter.bhp // display 
         // console.log(`enemy HP is: ${enemyCharacter.bhp}`)
         
